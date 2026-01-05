@@ -8,7 +8,8 @@ def reverse(number) -> int:
         number = number //10
     return reverse_no
 
-number = 123
-result=reverse(number)
-
-print("Reverse of number %d is %d",(number,result))
+if __name__ == '__main__':
+    number = 123
+    result=reverse(number)
+    
+    print("Reverse of number %d is %d",(number,result))
