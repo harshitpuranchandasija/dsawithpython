@@ -8,3 +8,4 @@ for i in arr:
         counter+=1
 
 print("Occurence of No {} of elements in array {}".format(no,counter))
+
